@@ -1,5 +1,4 @@
 ## Caching the Inverse of a Matrix
-# solve(matrix(c(1, 3, 2, 2, 6, 10, 3, 45, 4), 3, 3))
 # comments are based on Bill Hilton at 
 # https://class.coursera.org/rprog-009/forum/thread?thread_id=457
 
