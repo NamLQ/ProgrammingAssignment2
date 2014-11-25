@@ -8,9 +8,9 @@ makeCacheMatrix <- function(x = matrix()) {	# input x will be a matrix
   m <- NULL		 # m will be our invertible matrix and it's reset to NULL every 
                  # time makeCacheMatrix is called
 
-  set <- function(y) { # set the value of the matrix
-    x <<- y				
-    m <<- NULL
+  set <- function(y) { 	# set the value of the matrix
+    x <<- y				# Assign new value (y) to the matrix x
+    m <<- NULL			# Reset matrix m to NULL every time setting the new value
   }
                  # note these next three functions are not run when makeCacheMatrix is called.
                  # instead, they will be used by cacheSolve() to get values for x or for
